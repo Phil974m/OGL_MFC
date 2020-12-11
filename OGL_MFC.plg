@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: OGL_MFC - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x40c /fo"Debug/OGL_MFC.res" /d "_DEBUG" /d "_AFXDLL" "C:\Users\Neo\Desktop\OGL_MFC009\OGL_MFC.rc"" 
+Creating temporary file "C:\Users\Neo\AppData\Local\Temp\RSPDA30.tmp" with contents
+[
+glaux.lib opengl32.lib glut32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/OGL_MFC.pdb" /debug /machine:I386 /out:"Debug/OGL_MFC.exe" /pdbtype:sept 
+.\Debug\BitmapViewer.obj
+.\Debug\Child.obj
+.\Debug\ColorButton.obj
+.\Debug\ColourPopup.obj
+.\Debug\OGL_MFC.obj
+.\Debug\OGL_MFCDlg.obj
+.\Debug\OGLControl.obj
+.\Debug\OpenGLDevice.obj
+.\Debug\StdAfx.obj
+.\Debug\OGL_MFC.res
+]
+Creating command line "link.exe @C:\Users\Neo\AppData\Local\Temp\RSPDA30.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+LINK : LNK6004: Debug/OGL_MFC.exe not found or not built by the last incremental link; performing full link
+
+
+
+<h3>Results</h3>
+OGL_MFC.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
